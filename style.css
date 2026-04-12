@@ -1,0 +1,38 @@
+body {color:rgb(182, 3, 3)}
+
+.body{
+
+    background-color: rgba(228, 226, 204, 0.596);
+}
+
+a {font-family: Georgia, serif;
+font-weight: 700;
+color: black;}
+
+.logo_banner{
+width: 800px;
+height: 150px;
+opacity: 0.8;
+}
+
+.main_title_page {
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+}
+
+.home_page_image {
+
+    width: 800px;
+    border-radius: 18px;
+    opacity: 0.7
+}
+.logo{width: 100px;}
+
+.para_normal{
+    color:black;
+    size: 10px;
+    font-weight: bold;
+}
+.barista_image{
+    width: 400px;
+}
