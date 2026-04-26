@@ -36,3 +36,23 @@ opacity: 0.8;
 .barista_image{
     width: 400px;
 }
+
+
+
+
+.menu_item_image{
+    width: 150px;
+}
+
+
+.item_table {
+    width: 100%;
+    border: 1px solid black;
+     
+}
+
+.item_table th,
+.item_table td {
+    border: 1px solid black;
+
+    text-align: center; }
