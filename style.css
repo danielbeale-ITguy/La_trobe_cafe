@@ -25,7 +25,14 @@ opacity: 0.8;
     width: 800px;
     border-radius: 18px;
     opacity: 0.7
+
 }
+
+.home_page_image:hover{
+
+    transform: scale(1.1); 
+}
+
 .logo{width: 100px;}
 
 .para_normal{
