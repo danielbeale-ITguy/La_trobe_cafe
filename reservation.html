@@ -10,14 +10,18 @@
 </head>
 
 
-<body>
+<body class="body">
 
 
 
 
 
-<h1>Make a booking</h1>
-<a href="index.html">Home</a>
+<h1 class="main_title_page">Make a Booking</h1>
+
+<div class="link_container">
+    <a href="index.html" class="page_link">Home</a>
+</div>
+<br>
 
 
     <form action="/register" method="POST">
@@ -31,19 +35,19 @@
     <input type="time" name="time" id="time"><br>
     <div>
     <p>Number of Guests:</p>
-    <select name="numberG" id="numberG" size="9">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
 
-        </select>
-    <p>Note bookings above 9 people are not availble</p>
+    <div class="guest-grid">
+    <label><input type="radio" name="numberG" value="1">1</label>
+    <label><input type="radio" name="numberG" value="2">2</label>
+    <label><input type="radio" name="numberG" value="3">3</label>
+    <label><input type="radio" name="numberG" value="4">4</label>
+    <label><input type="radio" name="numberG" value="5">5</label>
+    <label><input type="radio" name="numberG" value="6">6</label>
+    <label><input type="radio" name="numberG" value="7">7</label>
+    <label><input type="radio" name="numberG" value="8">8</label>
+    <label><input type="radio" name="numberG" value="9">9</label>
+    </div>
+    <p>No bookings larger than 9</p>
     </div>
     <p>Opptional Pre orders</p>   
         <select name="preo" id="preo" size="1">
